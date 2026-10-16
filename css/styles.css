@@ -70,11 +70,28 @@ h1{
     text-decoration: overline;
 }
 
-a:hover
-{
-     background-color: #0563af;
+
+
+
+
+
+
+
+
+
+.boton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
   color: white;
-  padding: 12px;
-  width: 250px;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bton:hover {
+  background-color: #45a049;
+}
+
+.boton:active {
+  background-color: #3e8e41;
 }

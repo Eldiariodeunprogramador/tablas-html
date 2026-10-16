@@ -15,10 +15,14 @@ main
  
 }
 
+section
+{
+    margin-top: 80px;
+}
 
 table
 {
-    margin-top: 40px;
+    margin-top: 80px;
     margin: 0;
   padding: 0;
   background-color: #ffeeee;
@@ -64,4 +68,13 @@ tbody tr:hover
 h1{
     text-align: center;
     text-decoration: overline;
+}
+
+a:hover
+{
+     background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
 }
